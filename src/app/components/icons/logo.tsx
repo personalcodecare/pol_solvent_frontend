@@ -1,0 +1,40 @@
+import * as React from 'react'
+
+function SolventLabsLogo(
+  props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>,
+) {
+  return (
+    <svg
+      width={props.width ?? 110}
+      height={props.height ?? 40}
+      viewBox={`0 0 ${props.width ?? 110} ${props.height ?? 40}`}
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+      {...props}
+    >
+      <path fill="url(#pattern0_33_532)" d="M0 0H110V40H0z" />
+      <defs>
+        <pattern
+          id="pattern0_33_532"
+          patternContentUnits="objectBoundingBox"
+          width={1}
+          height={1}
+        >
+          <use
+            xlinkHref="#image0_33_532"
+            transform="matrix(.00165 0 0 .00453 0 -.003)"
+          />
+        </pattern>
+        <image
+          id="image0_33_532"
+          width={607}
+          height={222}
+          xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAl8AAADeCAYAAAADzGVJAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFG0lEQVR4nO3YUQ6UMBRAUTDsf8v1y0SjUaPtpQznLKB5tANz03OMMY53OieuZQ//34o9nDnfE9jDeWbu5Yo9fNs3Z/c9fMJ7svv34VW/6S93DwAA8CbiCwAgJL4AAELiCwAgJL4AAELiCwAgJL4AAELiCwAgJL4AAELiCwAgJL4AAELiCwAgJL4AAELiCwAgJL4AAELiCwAgJL4AAELiCwAgJL4AAELXgjXPBWu+zYo9HAvWBJ7PN5sdPOF/b9qMbr4AAELiCwAgJL4AAELiCwAgJL4AAELiCwAgJL4AAELiCwAgJL4AAELiCwAgJL4AAELiCwAgJL4AAELiCwAgJL4AAELiCwAgJL4AAELiCwAgdC1YcyxYc4Xz7gFgshW/6Znv86p3bsU3503fhyd8s3c/j1V7uPtz84/cfAEAhMQXAEBIfAEAhMQXAEBIfAEAhMQXAEBIfAEAhMQXAEBIfAEAhMQXAEBIfAEAhMQXAEBIfAEAhMQXAEBIfAEAhMQXAEBIfAEAhMQXAEBIfAEAhMQXAEDoOo7jvHuIvzDuHgDgQz3hP2B3q/bQf9+HcvMFABASXwAAIfEFABASXwAAIfEFABASXwAAIfEFABASXwAAIfEFABASXwAAIfEFABASXwAAIfEFABASXwAAIfEFABASXwAAIfEFABASXwAAIfEFABASXwAAoes4jnH3EPzEmczxhH087x7gD2bOt+o8dt/D3XlP9vWE949/4OYLACAkvgAAQuILACAkvgAAQuILACAkvgAAQuILACAkvgAAQuILACAkvgAAQuILACAkvgAAQuILACAkvgAAQuILACAkvgAAQuILACAkvgAAQuILACAkvgAAQucY4+4ZAABew80XAEBIfAEAhMQXAEBIfAEAhMQXAEBIfAEAhMQXAEBIfAEAhMQXAEBIfAEAhMQXAEBIfAEAhMQXAEBIfAEAhMQXAEBIfAEAhMQXAEDoOo5jTF7znLzeG80+k1V2P+un7OMsK87jbXv4ze6/beDB3HwBAITEFwBASHwBAITEFwBASHwBAITEFwBASHwBAITEFwBASHwBAITEFwBASHwBAITEFwBASHwBAITEFwBASHwBAITEFwBASHwBAITEFwBASHwBAITEFwBA6Lp7gA8xJq93Tl5vlZnPvfszr5pv9m9nZ7ufMUDCzRcAQEh8AQCExBcAQEh8AQCExBcAQEh8AQCExBcAQEh8AQCExBcAQEh8AQCExBcAQEh8AQCExBcAQEh8AQCExBcAQEh8AQCExBcAQEh8AQCExBcAQEh8AQCErrsHgIcYdw/wAZ60h+fdAwCfy80XAEBIfAEAhMQXAEBIfAEAhMQXAEBIfAEAhMQXAEBIfAEAhMQXAEBIfAEAhMQXAEBIfAEAhMQXAEBIfAEAhMQXAEBIfAEAhMQXAEBIfAEAhMQXAEBIfAEAhK67B+CXxt0D8JNz0bq7n/Wq555p9z0E+IGbLwCAkPgCAAiJLwCAkPgCAAiJLwCAkPgCAAiJLwCAkPgCAAiJLwCAkPgCAAiJLwCAkPgCAAiJLwCAkPgCAAiJLwCAkPgCAAiJLwCAkPgCAAhdC9YcC9Zc4bx7gN/YebbvPeWsZ1j1rLuf9ZvOGCDh5gsAICS+AABC4gsAICS+AABC4gsAICS+AABC4gsAICS+AABC4gsAICS+AABC4gsAICS+AABC4gsAICS+AABC4gsAICS+AABC4gsAICS+AABC4gsAIPQVaOYvyJ1DihcAAAAASUVORK5CYII="
+        />
+      </defs>
+    </svg>
+  )
+}
+
+export default SolventLabsLogo
